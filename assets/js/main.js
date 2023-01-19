@@ -250,3 +250,7 @@
   new PureCounter();
 
 })()
+
+function downloadResume() {
+  window.location = './cv/Dulanga-Wimalagunasekara.pdf';
+}
