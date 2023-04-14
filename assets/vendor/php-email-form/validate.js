@@ -16,6 +16,7 @@
       let email = $("#email").val();
       let subject = $("#subject").val();
       let message = $("#message").val();
+      const checkBox = $(".checkHuman");
 
       let thisForm = this;
 
@@ -23,6 +24,11 @@
 
       if( ! action ) {
         displayError(thisForm, 'The form action property is not set!')
+        return;
+      }
+
+      if (!checkBox[0].checked) {
+        displayError(thisForm, 'Please verify you are a human!');
         return;
       }
 
