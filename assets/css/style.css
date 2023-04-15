@@ -1362,6 +1362,7 @@ section .container {
 
 .button:hover {
   background: var(--button-color);
+  cursor: pointer;
 }
 
 .button:hover .text {
