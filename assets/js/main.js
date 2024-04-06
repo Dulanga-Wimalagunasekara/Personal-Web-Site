@@ -252,5 +252,5 @@
 })()
 
 function downloadResume() {
-  window.location = './cv/Dulanga-Wimalagunasekara.pdf';
+  window.location = './cv/Dulanga-Wimalagunasekara-CV-new.pdf';
 }

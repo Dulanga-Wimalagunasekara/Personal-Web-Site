@@ -8,4 +8,7 @@
     <orderEntry type="library" name="jquery-3.6.3" level="application" />
     <orderEntry type="library" name="animate.css" level="application" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="b4a03877-c466-45da-a828-72e059d0e9ec" />
+  </component>
 </module>
